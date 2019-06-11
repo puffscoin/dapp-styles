@@ -14,7 +14,7 @@ gulp.task('less', function () {
  
 gulp.task('replaceUrl', ['less'],function(){
   gulp.src(['./dist/dapp-styles.css'])
-    .pipe(replace(/packages\/ethereum_dapp-styles\//g, ''))
+    .pipe(replace(/packages\/puffscoin_dapp-styles\//g, ''))
     .pipe(gulp.dest('./dist'));
 });
 
