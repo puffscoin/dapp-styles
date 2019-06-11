@@ -6,17 +6,17 @@ These styles give a simple basic layout for your Ðapps.
 
 ## The Design
 
-The Ethereum Dapp design style is meant to ease the task of designing clear and good looking App interfaces. It uses as few images as possible for the UI and instead uses colors and icons for differentiating hierarchies. In order to make each Dapp unique and help the user quickly realize where he is even when navigating different instances of the same app, we use GeoPatterns in backgrounds when they refer to a unique instance of something. The fonts used are all open source, Source Sans, from Adobe which has a rich family and multiple styles and Montserrat for bold and strong titles. We also use a font for vector icons to ensure scalability and easy customization.
+The Puffscoin dApp design style is meant to ease the task of designing clear and good looking Distributed App interfaces. It uses as few images as possible for the UI and instead uses colors and icons for differentiating hierarchies. In order to make each Dapp unique and help the user quickly realize where he is even when navigating different instances of the same app, GeoPatterns are used in backgrounds when they refer to a unique instance of something. The fonts used are all open source, Source Sans, from Adobe which has a rich family and multiple styles and Montserrat for bold and strong titles. We also use a font for vector icons to ensure scalability and easy customization.
 
 Most apps are different variations of some simple elements: 
 
-* Use the header on the top with tabs, when your Dapp uses a few constant sections (ie. send and receive)
+* Use the header on the top with tabs, when your dApp uses a few constant sections (ie. send and receive)
 
-* Use the left sidebar when your Dapp has a large number of sources for content (ie. a list of chats)
+* Use the left sidebar when your dApp has a large number of sources for content (ie. a list of chats)
 
 * Use the right action bar for actions to be done with the current content 
 
-* Use Dapp-overflow if you want the sections to scroll independently and to remain fixed on the screen
+* Use dApp-overflow if you want the sections to scroll independently and to remain fixed on the screen
 
 
 ## Setup
@@ -35,16 +35,16 @@ Just link the `dapp-styles.less` in your apps main LESS file.
 To use it in a Meteor app add the `less` package:
 
     $ meteor add less
-    $ meteor add ethereum:dapp-styles
+    $ meteor add puffscoin:dapp-styles
 
 Adn add the following to your main less file:
 
-    @import '{ethereum:dapp-styles}/dapp-styles.less';
+    @import '{puffscoin:dapp-styles}/dapp-styles.less';
 
 
 
 ### Screenshots 
-**These are early screenshots and many things are bound to change during development**
+**These are screenshots from the original Eth project, much of this will change significantly during Puffscoin's early development**
 
 ![Generic contract showing styles](https://cloud.githubusercontent.com/assets/112898/6045448/4eb71c24-ac81-11e4-8498-7a4153530841.png)
 
@@ -208,7 +208,7 @@ TODO
 
 A list of accounts with name and address. Either clickable, with the `<button>` tag, or as simple list.
 
-The `a.dapp-identicon` can be an image icon. (If you use the `ethereum:elements` Meteor package, you can use `{{> dapp_identicon identity=address class="dapp-small"}}`)
+The `a.dapp-identicon` can be an image icon. (If you use the `puffscoin:elements` Meteor package, you can use `{{> dapp_identicon identity=address class="dapp-small"}}`)
 
 The `<span>` is optional.
 
