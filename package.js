@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ethereum:dapp-styles',
+  name: 'puffscoin:dapp-styles',
   summary: 'CSS/LESS framework for dapps',
   version: '0.5.8',
-  git: 'http://github.com/ethereum/dapp-styles'
+  git: 'http://github.com/puffscoin/dapp-styles'
 });
 
 Package.onUse(function(api) {
@@ -73,7 +73,7 @@ Package.onUse(function(api) {
 
 // Package.onTest(function(api) {
 //   api.use('tinytest');
-//   api.use('ethereum:blocks');
+//   api.use('puffscoin:blocks');
 //   api.addFiles('blocks-tests.js');
 // });
 
