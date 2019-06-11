@@ -1,6 +1,6 @@
 {
   "name": "dapp-styles",
-  "namespace": "ethereum",
+  "namespace": "puffscoin",
   "version": "0.5.6",
   "description": "CSS/LESS framework for dapps",
   "directories": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum/dapp-styles.git"
+    "url": "https://github.com/puffscoin/dapp-styles.git"
   },
-  "homepage": "https://github.com/ethereum/dapp-styles",
+  "homepage": "https://github.com/puffscoin/dapp-styles",
   "bugs": {
-    "url": "https://github.com/ethereum/dapp-styles/issues"
+    "url": "https://github.com/puffscoin/dapp-styles/issues"
   },
   "keywords": [
-    "ethereum",
+    "puffscoin",
     "dapp",
     "styles"
   ],
